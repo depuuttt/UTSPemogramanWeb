@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReadDaLib! - Login</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="form-container">
+        <div class="form-body">
+          <p id="console-output"></p>
+          <h2 class="title">Log In</h2>
+          <div class="title-description">ReadDaLib! Dashboard</div>
+
+          <form id="loginForm" method="post" class="the-form">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter your username"
+            />
+
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter your password"
+            />
+
+            <input type="submit" onclick="login()" value="Log In" />
+          </form>
+        </div>
+        <!-- FORM BODY-->
+
+        <div class="form-footer"></div>
+        <!-- FORM FOOTER -->
+      </div>
+      <!-- FORM CONTAINER -->
+    </div>
+  </body>
+  <script src="../model/login.js"></script>
+</html>
