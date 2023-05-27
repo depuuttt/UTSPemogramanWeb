@@ -1,4 +1,7 @@
-# Simple-Dashboard
+# UTS Pemograman Web
 
-This is a template layout for a simple dashboard that provides statistics of customers and profits of a certain brand.
-https://github.com/AhmedHafez7-Eng/Simple-Dashboard
+This Online Library project is built using HTML, CSS and JS. For now this project does not use the database and may use it in the future.
+
+# Changelogs:
+26/05/2023
+* Create a login function
