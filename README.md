@@ -12,6 +12,7 @@ This Online Library project is built using HTML, CSS and JS. For now this projec
 
 - After successfull login user will redirected to Dashboard
 - Logout is working now
+- Dashboard content revamp
 
 # Issue
 
