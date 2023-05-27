@@ -1,13 +1,23 @@
 const userAcc = [
   {
+    UserID: "user-001",
     Username: "depuuttt",
     Password: "123",
+    Name: "Depuuttt",
   },
   {
+    UserID: "user-002",
     Username: "aldi",
     Password: "123",
+    Name: "Aldi Maulana",
   },
 ];
+
+function setCookie(name, value, minutes) {
+  const expires = new Date();
+  expires.setTime(expires.getTime() + minutes * 60 * 1000);
+  document.cookie = name + "=" + value + ";expires=" + expires.toUTCString();
+}
 
 function login() {
   document
@@ -27,11 +37,9 @@ function login() {
 
       if (user) {
         alert("Login Successful!\nYou'll be redirected soon.");
-        // Perform any desired action here, such as redirecting to another page
+        window.location.assign("../../index.html");
       } else {
-        // Failed login
         alert("Invalid username or password\nPlease try again.");
-        // Display an error message on the page or perform any other desired action
       }
     });
 }
